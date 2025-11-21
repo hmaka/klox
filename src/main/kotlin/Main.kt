@@ -1,4 +1,4 @@
-package org.example
+package org.root
 
 fun main(args: Array<String>) {
     println("Arguments: ${args.joinToString()}")
