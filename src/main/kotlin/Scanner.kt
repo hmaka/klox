@@ -111,7 +111,7 @@ class Scanner(val source: String, private val lox: Lox) {
             while (peek()?.isDigit() == true) advance()
         }
 
-        addToken(NUMBER, source.substring(start, current))
+        addToken(NUMBER, source.substring(start, current).toDouble())
 
     }
 
